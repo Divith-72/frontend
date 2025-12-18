@@ -1,6 +1,6 @@
 import axios from 'axios';
 import productData from './productData.js';
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'http://172.17.1.122:5000/api';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
